@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 5276352396167853287}
   - component: {fileID: 2020916860338311207}
   m_Layer: 6
-  m_Name: Asteroids
+  m_Name: DONT DELETE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

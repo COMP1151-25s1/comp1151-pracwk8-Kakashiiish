@@ -10,14 +10,25 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4340234082656591257, guid: 22b9420f750292f4d9febafb77e74013, type: 3}
       propertyPath: m_Name
-      value: Asteroids Variant
+      value: MAIN ASTEROID
       objectReference: {fileID: 0}
     - target: {fileID: 5276352396167853287, guid: 22b9420f750292f4d9febafb77e74013, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"direction","value":{"x":1.0,"y":0.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AsteroidSpeed","value":{"$content":0.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Asteroid","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SpawnDelay","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpawnCooldownRemaining","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
+    - target: {fileID: 5276352396167853287, guid: 22b9420f750292f4d9febafb77e74013, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5276352396167853287, guid: 22b9420f750292f4d9febafb77e74013, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 6320932067515490018}
     - target: {fileID: 7173840547570588911, guid: 22b9420f750292f4d9febafb77e74013, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.36
@@ -195,6 +206,11 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 94e746c6b78715747bfa6a171566458d, type: 2}
+--- !u!1 &6320932067515490018 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4340234082656591257, guid: 22b9420f750292f4d9febafb77e74013, type: 3}
+  m_PrefabInstance: {fileID: 7747297325359874939}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8791860711523305238 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1261319481421431917, guid: 22b9420f750292f4d9febafb77e74013, type: 3}
